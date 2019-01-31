@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace prmToolkit.NotificationPattern
 {
-    public interface INotifiable : IDisposable
+    public interface INotifiable //: IDisposable
     {
         IReadOnlyCollection<Notification> Notifications { get; }
 

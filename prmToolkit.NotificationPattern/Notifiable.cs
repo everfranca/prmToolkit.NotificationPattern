@@ -87,12 +87,12 @@ namespace prmToolkit.NotificationPattern
             _notifications.Clear();
         }
 
-        public void Dispose()
-        {
-            _notifications.Clear();
+        //public void Dispose()
+        //{
+        //    _notifications.Clear();
 
-            GC.SuppressFinalize(this);
-        }
+        //    GC.SuppressFinalize(this);
+        //}
 
         /// <summary>
         /// Verifica se o objeto notificável é valido
